@@ -1,0 +1,101 @@
+.main-header {
+	border-bottom: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+	padding: 0.15em 0 0.5em 0;
+}
+.center {
+	text-align: center;
+}
+
+.table1 {
+  border-collapse: collapse;
+  border-spacing: 20px;
+  background-color: aliceblue;
+  table-layout: fixed;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid blue;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.table2 {
+  border-collapse: separate;
+  border-spacing: 2px;
+  background-color: lightgrey;
+  width:90%; 
+  margin-left:5%; 
+  margin-right:5%;
+  }
+
+.table2 th {
+  border: 1.75px solid black;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.table2 td {
+  border: 1.75px solid black;
+  padding: 5px 5px;
+  text-align: center;
+
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.left {
+	width: 50%;
+	float: left;
+	border-bottom: 1px solid lightgrey;
+	margin-left: 5%;
+}
+.left h4 {
+	text-align: center;
+}
+
+.right {
+	width: 45%;
+	float: right;
+	border-bottom: 1px solid lightgrey;
+}
+.right h4 {
+	text-align: center;
+
+}
+
+.circle {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: green;
+	border-radius: 55%;
+	border: 3px solid darkblue;
+	margin: 20px 100px 0 180px;
+}
+
+.square {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: purple;
+	border: 3px solid black;
+	margin: 20px 100px 0 80px;
+}
+
+.bunny {
+	display: inline-block;
+	border: 3px solid blue;
+	margin: 20px 100px 0 80px;
+	height: 150px;
+	width: 150px;
+}
+
+.bunny img {
+	height: 150px;
+	width: 150px;
+}
+
